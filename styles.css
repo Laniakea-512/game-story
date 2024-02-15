@@ -1,0 +1,90 @@
+body {
+  background-color: #1e1e20;
+}
+
+#text {
+  background-color: #1e1e20;
+  color: #ccae91;
+  padding: 10px;
+  width: 480px;
+  height: 220px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #384241;
+  color: #ccae91;
+  margin: 30px auto 0px;
+  padding: 10px;
+  width: 500px;
+  height: 380px;
+}
+
+#controls,
+#stats {
+  padding: 5px;
+  color: #e79544;
+  background-color: #2a2c2b;
+  background-image: linear-gradient(to bottom, #2a2c2b, #1e1e20);
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #1e1e20;
+  padding: 5px;
+  color: #dacca0;
+  background-color: #660000;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+.stat:nth-child(1) {
+  color: #7abd8f;
+}
+
+.stat:nth-child(2) {
+  color: #ff6038;
+}
+
+.stat:nth-child(3) {
+  color: #ffb238;
+}
+
+#stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  color: #1e1e20;
+  background-color: #5b5251;
+  background-image: linear-gradient(#5b5251, #ffac33);
+  border: 1px solid #5b5251;
+  border-radius: 5px;
+  transition: border-color 0.8s ease;
+  margin: auto;
+  height: 70px;
+  width: 100px;
+}
+
+button:hover {
+  border: 1px solid #ffac33;
+  box-shadow: 0px 0px 5px rgba(255, 178, 56, 0.5);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2c2b;
+  background-image: linear-gradient(to bottom, #2a2c2b, #1e1e20);
+}
